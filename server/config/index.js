@@ -1,7 +1,7 @@
 export default {
-	db: 'mongodb://root:123456@localhost:27017/blog',
+	db: 'mongodb://blogadmin:123456@localhost:27017/blog',
 	user: {
-        username: 'admin',
-        password: '123456'
+        username: 'sonong',
+        password: '860521'
     }
 }
