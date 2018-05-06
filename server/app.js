@@ -24,5 +24,5 @@ app.use(router.routes())
 app.use(router.allowedMethods())
 app.use(koaStatic(path.join( __dirname,  staticPath)))
 
-app.listen(80)
-console.log('starting at port 80')
+app.listen(8080)
+console.log('starting at port 8080')
